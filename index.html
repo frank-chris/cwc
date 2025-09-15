@@ -9,10 +9,16 @@
       font-family: Arial, sans-serif;
       background: #f4f4f9;
       margin: 0;
-      padding: 20px;
+      height: 100vh;
       display: flex;
       justify-content: center;
+      align-items: center;
+    }
+    .container {
+      display: flex;
       gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     .card {
       background: #fff;
@@ -49,20 +55,22 @@
 </head>
 <body>
 
-  <div class="card">
-    <h2>St. Joseph's Church, Kuriachira</h2>
-    <p>Get directions to St. Joseph's Church from your current location.</p>
-    <a href="https://www.google.com/maps/dir/?api=1&origin=Current+Location&destination=St.+Joseph's+Church,+Kuriachira" target="_blank">
-      Get Directions
-    </a>
-  </div>
+  <div class="container">
+    <div class="card">
+      <h2>St. Joseph's Church, Kuriachira</h2>
+      <p>Get directions to St. Joseph's Church from your current location.</p>
+      <a href="https://www.google.com/maps/dir/?api=1&origin=Current+Location&destination=St.+Joseph's+Church,+Kuriachira" target="_blank">
+        Get Directions
+      </a>
+    </div>
 
-  <div class="card">
-    <h2>Chakolas Pavilion Convention Centre</h2>
-    <p>Get directions to Chakolas Pavilion Convention Centre from your current location.</p>
-    <a href="https://www.google.com/maps/dir/?api=1&origin=Current+Location&destination=Chakolas+Pavilion+Convention+Centre" target="_blank">
-      Get Directions
-    </a>
+    <div class="card">
+      <h2>Chakolas Pavilion Convention Centre</h2>
+      <p>Get directions to Chakolas Pavilion Convention Centre from your current location.</p>
+      <a href="https://www.google.com/maps/dir/?api=1&origin=Current+Location&destination=Chakolas+Pavilion+Convention+Centre" target="_blank">
+        Get Directions
+      </a>
+    </div>
   </div>
 
 </body>
